@@ -39,7 +39,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'shop',
+    'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'bootstrap4',
     'pyuploadcare.dj',
