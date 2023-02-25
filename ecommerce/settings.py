@@ -117,7 +117,7 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 # DATABASES['default'].update(db_from_env)
 DATABASES = {
     
-    'default': dj_database_url.parse('postgres://freshsto_user:FK4bMXLHOECs3vOHrjOfViJ9J5ApOsB5@dpg-cfstf1irrk0c833amst0-a.frankfurt-postgres.render.com/freshsto')
+    'default': dj_database_url.parse('postgres://freshsto_2_user:Mrm4UvwbD9603pbg5vfIB8zFf4MbXktn@dpg-cfsvujpa6gdotccf7jig-a.oregon-postgres.render.com/freshsto_2')
     
     
     }
