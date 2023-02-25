@@ -55,7 +55,9 @@ INSTALLED_APPS = [
     'registration',
     'login',
     'account',
+    'shop',
     'captcha'
+    
  
 
   
@@ -115,8 +117,9 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 # }
 # DATABASES['default'].update(db_from_env)
 DATABASES = {
+    
     'default': dj_database_url.parse('postgres://freshsto_user:FK4bMXLHOECs3vOHrjOfViJ9J5ApOsB5@dpg-cfstf1irrk0c833amst0-a.frankfurt-postgres.render.com/freshsto')
-     
+    
     
     }
 
